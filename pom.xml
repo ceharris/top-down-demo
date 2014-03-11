@@ -16,7 +16,7 @@
     <persistence.unit>tdtdd</persistence.unit>
     <persistence.dataSource>java:jboss/datasources/tdtddDS</persistence.dataSource>
   </properties>
-
+  
   <build>
     <plugins>
       <plugin>
