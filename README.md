@@ -1,3 +1,5 @@
-# JSF Application
+top-down-demo
+=============
 
-This is a sample JSF application
+This is an example used to illustrate the top-down test-first approach for developing a web application using the Java EE 7 platform.
+
