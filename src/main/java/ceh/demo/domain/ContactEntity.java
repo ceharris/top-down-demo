@@ -1,5 +1,7 @@
 package ceh.demo.domain;
 
+import java.io.Serializable;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -22,6 +24,10 @@ public class ContactEntity implements Contact {
   
   @Column(name = "last_name", nullable = false, unique = true)
   private String lastName;
+  
+  public Serializable getId() {
+    return id;
+  }
   
   @Override
   public String getLastName() {
